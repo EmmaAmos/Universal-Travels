@@ -1,13 +1,30 @@
+/* styles.css */
+
 body {
     color: rgb(202, 185, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between images as needed */
 }
 
 nav img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+    width: 550px; /* Set a specific width */
+    height: 500px; /* Set a specific height */
+    max-width: none; /* Remove the max-width constraint */
 }
 
 nav .rounded-image {
     border-radius: 50px;
+}
+
+nav .stripe{
+    color: blue;
 }
