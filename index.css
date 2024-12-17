@@ -1,0 +1,26 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; /* Adjust the gap between images as needed */ 
+    background-color: rgb(241, 224, 184); width: 100%; /* Make the streak span the full width of the page */ 
+    padding: 60px;
+}
+
+nav img {
+    width: 550px; 
+    height: 500px;
+    max-width: none; 
+}
+
+nav .rounded-image {
+    border-radius: 50px;
+}
