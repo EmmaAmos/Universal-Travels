@@ -1,0 +1,13 @@
+body {
+    color: rgb(202, 185, 164);
+}
+
+nav img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+nav .rounded-image {
+    border-radius: 50px;
+}
