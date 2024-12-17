@@ -1,6 +1,6 @@
 12/17/2024, The following is what I'll be setting up first. It'll be the ground work for the project.
 
-The first page:index.html
+The first page:MainPage.html
     The set up: The navigation will feater two pictures, which will act as links.
         The first picture will be of Islands of Adventure and the Secound will be of Universal Stuidos.
         Under the nav, which will be in the middle of the page, will be a few comments from our reporters.
