@@ -17,12 +17,16 @@
     <div class="headline">
          <h1>Universal Travels</h1>
     <h2>The Unofficial Travel Guide for the Universal Orlando Parks</h2>
-    </div>
-   
-    <nav class="stripe">
-        <a href="/IOAsideFolder/IOAside.html"><img class="rounded-image" src="/pictures/islands_of_adventure.jpg" alt="islands_of_adventure"></a>
-        <a href="/UniversalSideFolder/UniversalSide.html"><img class="rounded-image" src="/pictures/universal_studios_florida_entrance_universal_supplied.jpg" alt="universal_studios_florida_entrance_universal_supplied"></a>
-    </nav>
+    </div> 
+    <!--Nav Fetch-->
+    <script>
+        fetch('Nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            });
+    </script>
+
     <div class="displayGrid">
             <div class="table-container-island">
             <table>

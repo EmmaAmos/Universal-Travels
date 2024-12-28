@@ -7,7 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Islands Side</p>
+
+    <script>
+        fetch('../Nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+            });
+    </script>
+    <h1>Island Of Adventure</h1>
         <th><h1>What is on the Islands' Side?</h1></th>
         <tr>
             <td>
