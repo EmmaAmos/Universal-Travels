@@ -4,18 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/MainPageStyle.css">
-    <title>Document</title>
+    <script src="/nav.js"></script>
+    <title>Universal Travels: I.O.A. Side</title>
 </head>
 <body>
 
-    <script>
-        fetch('../Nav.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('nav-placeholder').innerHTML = data;
-            });
-    </script>
+    <div id="nav-placeholder"></div>
     <h1>Island Of Adventure</h1>
+    <table>
         <th><h1>What is on the Islands' Side?</h1></th>
         <tr>
             <td>
@@ -89,6 +85,8 @@
                 A whimsical carousel featuring characters from Dr. Seuss books.
             </td>
         </tr>
+    </table>
+        <div id="endCard"></div>
 </div>
 </body>
 </html>
