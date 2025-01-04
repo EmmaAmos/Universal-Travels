@@ -62,13 +62,23 @@ nav {
 }
 
 nav img {
-    width: 550px; 
+    width: 500px; 
     height: 500px;
     max-width: none; 
 }
 
 nav .rounded-image {
     border-radius: 50px;
+}
+
+nav .mainPageLink{
+    width: 850px; 
+    height: 500px;
+    max-width: none;
+}
+
+div .endStripe{
+    background-color: brown;
 }
 
 
