@@ -115,6 +115,7 @@ div .endStripe {
     padding: 20px;
 }
 
+/*For MainPage and IOA Page*/
 .table-container-island {
     width: 80%; /* Adjust the width as needed */
     margin-top: 20px; /* Add some space between the images and the table */
@@ -135,19 +136,10 @@ th, td {
     padding: 8px;
 }
 
-
-td, h3 {
-    padding: 8px;
-}
-
-td, p { margin-left: 50px; /* Adjust the value to set the desired indentation */ 
-    padding: 8px; 
-}
-
+/*For MainPage and UNiversal Page*/
 .table-container-universal {
     width: 80%; /* Adjust the width as needed */
     margin-top: 20px; /* Add some space between the images and the table */
-
 
     flex: 1; /* Make items take up equal space */ 
     margin-top: 20px; /* Add some space between the images and the table */ 
@@ -164,6 +156,3 @@ th, td {
     width: 100%; /* Make the table cells take up the full width */
     padding: 8px;
 }
-
-
-/*Hi, welcome to my park*/
