@@ -115,6 +115,10 @@ div .endStripe {
     padding: 20px;
 }
 
+th, tr, .map{
+    
+}
+
 /*For MainPage and IOA Page*/
 .table-container-island {
     width: 80%; /* Adjust the width as needed */
