@@ -115,8 +115,11 @@ div .endStripe {
     padding: 20px;
 }
 
-th, tr, .map{
-    
+th, tr, td, .map{
+    justify-content: center;
+    width: 400px; 
+    height: auto;
+    max-width: none; 
 }
 
 /*For MainPage and IOA Page*/
