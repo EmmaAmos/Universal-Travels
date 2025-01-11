@@ -115,7 +115,7 @@ div .endStripe {
     padding: 20px;
 }
 
-th, tr, td, .map{
+.map{
     justify-content: center;
     width: 400px; 
     height: auto;
