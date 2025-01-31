@@ -115,6 +115,13 @@ div .endStripe {
     padding: 20px;
 }
 
+.map{
+    justify-content: center;
+    width: 400px; 
+    height: auto;
+    max-width: none; 
+}
+
 /*For MainPage and IOA Page*/
 .table-container-island {
     width: 80%; /* Adjust the width as needed */
