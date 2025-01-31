@@ -130,6 +130,8 @@ div .endStripe {
     margin-top: 20px; /* Add some space between the images and the table */ 
     margin: 0 10px; /* Add space between items */ 
     max-width: 45%; /* Adjust the maximum width as needed */
+
+    padding: 60px;
 }
 
 table {
@@ -151,6 +153,8 @@ th, td {
     margin-top: 20px; /* Add some space between the images and the table */ 
     margin: 0 10px; /* Add space between items */ 
     max-width: 45%; /* Adjust the maximum width as needed */
+
+    padding: 60px;
 }
 
 table {
