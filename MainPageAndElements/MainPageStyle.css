@@ -116,9 +116,8 @@ div .endStripe {
 }
 
 .map{
-    justify-content: center;
-    width: 400px; 
-    height: auto;
+    width: auto; 
+    height: 400px;
     max-width: none; 
 }
 
