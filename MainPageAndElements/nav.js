@@ -1,16 +1,16 @@
 //Nav Fetch
-    fetch('/Nav.html')
+    fetch('/MainPageAndElements/nav.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('nav-placeholder').innerHTML = data;
         });
-        fetch('/Headline.html')
+        fetch('/MainPageAndElements/Headline.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('headline').innerHTML = data;
         });
 
-    fetch('/Social.html')
+    fetch('/MainPageAndElements/Social.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('endCard').innerHTML = data;
