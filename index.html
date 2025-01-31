@@ -1,3 +1,4 @@
+ <!--
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +9,48 @@
 </head>
 <body>
 
-  <!--This page redirects to MainPage.html-->
+ This page redirects to MainPage.html
   <p>Redirecting to MainPage.html...</p>
 </body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirect</title>
+  <script>
+    let timer = 10; // Seconds before redirect
+    const redirectTarget = "/MainPageAndElements/MainPage.html"; // Store target URL
+
+    function updateTimerDisplay() {
+      const timerDisplay = document.getElementById("timer");
+      if (timerDisplay) {
+        timerDisplay.textContent = timer;
+      }
+    }
+
+    function redirect() {
+      window.location.href = redirectTarget;
+    }
+
+    function startTimer() {
+      updateTimerDisplay(); // Initial display
+      const countdown = setInterval(() => {
+        timer--;
+        updateTimerDisplay();
+
+        if (timer <= 0) {
+          clearInterval(countdown); // Stop the timer
+          redirect();
+        }
+      }, 1000); // Update every 1000ms (1 second)
+    }
+
+    window.onload = startTimer; // Start timer when the page loads
+  </script>
+</head>
+<body>
+
+  <p>Redirecting to MainPage.html in <span id="timer"></span> seconds...</p> </body>
 </html>
