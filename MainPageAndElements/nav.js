@@ -15,3 +15,10 @@
         .then(data => {
             document.getElementById('endCard').innerHTML = data;
         });
+
+//Contruction Page Fetch
+fetch('/MainPageAndElements/Construction.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('construction').innerHTML = data;
+        });
