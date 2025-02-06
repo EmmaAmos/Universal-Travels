@@ -1,23 +1,23 @@
 //Nav Fetch
-    fetch('/MainPageAndElements/nav.html')
+    fetch('/elements/nav.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('nav-placeholder').innerHTML = data;
         });
-        fetch('/MainPageAndElements/Headline.html')
+        fetch('/elements/headline.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('headline').innerHTML = data;
         });
 
-    fetch('/MainPageAndElements/Social.html')
+    fetch('/elements/socmed.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('endCard').innerHTML = data;
         });
 
 //Contruction Page Fetch
-fetch('/MainPageAndElements/Construction.html')
+fetch('/elements/construction.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('construction').innerHTML = data;
